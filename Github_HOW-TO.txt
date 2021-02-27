@@ -1,0 +1,24 @@
+﻿
+Go to Github and set up a new repository, include a README.md
+
+Come back to your working directory and;
+
+# git clone https://github.com/owencook/HO_Cook.git
+# cd HO_Cook
+ 
+# git remote set-url origin git@github.com:owencook/HO_Cook.git
+ Change the README.md file for testing the next step
+
+# git add README.md 
+# git commit -m "Modified README"
+# git push origin HEAD:master
+
+If all goes well, the revised README.md will be uploaded to github. Then add say a new file;
+
+# git add Jottings.txt 
+
+# git commit -m "Initial" Jottings.txt 
+# git push origin HEAD:master
+
+
+The new file should have been added on github.
